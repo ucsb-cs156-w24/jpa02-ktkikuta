@@ -1,24 +1,8 @@
-# STARTER-jpa02
+# jpa02-ktkikuta
 
-* TODO: Change the title of this README 
-  in the text `# STARTER-jpa02` above
-  to match the name of your repo, i. e., `jpa02-yourgithubid`, then delete
-  this TODO item.
+Repo: https://github.com/ucsb-cs156-w24/jpa02-ktkikuta.git
 
-* TODO: Correct the links to repo below, 
-  then delete this TODO.  Replace it with 
-  a link to your repo, e.g. 
-  https://github.com/ucsb-cs156-w24/jpa02-cgaucho
-
-Repo: https://ucsb-cs156-w24/STARTER-jpa02
-
-* TODO: Correct the "deployed at" link to app on Dokku
-  then delete this TODO.  Replace it with 
-  a link to your running app on Dokku, e.g.
-  https://jpa02-cgaucho.dokku-14.cs.ucsb.edu
-
-
-Deployed at: https://jpa02-replace-me.dokku-xx.cs.ucsb.edu
+Deployed at: http://jpa02-ktkikuta.dokku-04.cs.ucsb.edu/
 
 
 # About this repo
@@ -47,7 +31,7 @@ jpa02 for Fall 2022 for CMPSC 156.
 The code in this repo is based in part on the tutorial here:
 <https://spring.io/guides/gs/spring-boot/>, and the code here in the
 `complete` directory of this repo
-<https://github.com/spring-guides/gs-spring-boot.git>.  
+<https://github.com/spring-guides/gs-spring-boot.git>.
 
 That code has been
 modified for use in UCSB CMPSC 156 as described
@@ -58,18 +42,16 @@ below.
 * Java 17 support
   * Converting `pom.xml` to use Java 17
 * JUnit 5
-  * Converting test code to use JUnit 5 instead of JUnit 4  
+  * Converting test code to use JUnit 5 instead of JUnit 4
 * Dokku Support
   * Ensuring that the `PORT` environment variable is
-    used to define the port on which Spring Boot starts the web server 
+    used to define the port on which Spring Boot starts the web server
 * Testing and CI
   * Adding JUnit tests
-  * Adding jacoco as a plugin to measure test 
+  * Adding jacoco as a plugin to measure test
     case coverage
   * Adding pitest for mutation test coverage.
   * Adding support for GitHub Actions to run
     the test cases, compute jacoco report,
     upload code coverage reports to Codecov.io,
     and produce pitest artifacts.
-
-
